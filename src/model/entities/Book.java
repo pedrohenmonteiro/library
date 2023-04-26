@@ -1,7 +1,7 @@
 package model.entities;
 
 public class Book {
-    private int id;
+    private Integer id;
     private String title;
     private String author;
     private String publicationYear;
@@ -9,17 +9,17 @@ public class Book {
     public Book() {
     }
 
-    public Book(int id, String title, String author, String publicationYear) {
+    public Book(Integer id, String title, String author, String publicationYear) {
         this.id = id;
         this.title = title;
         this.author = author;
         this.publicationYear = publicationYear;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
     public String getTitle() {
